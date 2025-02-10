@@ -3,7 +3,7 @@
 int main() {
     char x[100],y[100];
     int z;
-    scanf("%s %d %s",x,y,z);
+    scanf("%s %d %s",x,z,y);
     printf("Name: %s\n",x);
     printf("Age: %d\n",z);
     printf("Hobby: %s\n",y);
