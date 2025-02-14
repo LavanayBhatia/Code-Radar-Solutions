@@ -1,9 +1,8 @@
 // Your code here...
-include <stdio.h>
+#include <stdio.h>
 int main(){
-    int x;
-    int y;
+    int x,y;
     scanf("%d %d",&x,&y);
-    int z=x>y?x:y;
+    int z=(x>y)?x:y;
     print(z);
 }
