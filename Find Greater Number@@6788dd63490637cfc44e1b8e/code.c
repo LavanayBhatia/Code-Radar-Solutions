@@ -4,5 +4,5 @@ int main(){
     int x,y;
     scanf("%d %d",&x,&y);
     int z=(x>y)?x:y;
-    printf(z);
+    printf("%d",z);
 }
