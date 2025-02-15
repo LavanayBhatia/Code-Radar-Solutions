@@ -4,4 +4,4 @@ int main(){
     int x,y;
     scanf("%d %d",&x,&y);
     int z=x^(1<<y);
-    printf(z);
+    printf(z);}
