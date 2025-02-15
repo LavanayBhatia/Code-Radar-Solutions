@@ -4,4 +4,4 @@
 int main() {
     int x,y;
     scanf("%d %d",&x,&y);
-    printf("%d %d",x^~x,y^~y);}
+    printf("%d %d",(x^y)^y,(x^y)^x);}
