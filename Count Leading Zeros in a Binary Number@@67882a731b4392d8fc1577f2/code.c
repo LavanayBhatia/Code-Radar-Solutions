@@ -3,5 +3,6 @@
 int main(){
     int x;
     scanf("%d",&x);
-    printf("%d",32-x);}
-    
+    int z=__builtin_clz(x);
+    printf("%d",z);
+}
