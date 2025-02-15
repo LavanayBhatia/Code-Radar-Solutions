@@ -5,6 +5,6 @@ int main(){
     scanf("%d",&x);
     while(x>1){
         printf("%d",x&1);
-        x/2;
+        x = x >> 1;
     }
     }
