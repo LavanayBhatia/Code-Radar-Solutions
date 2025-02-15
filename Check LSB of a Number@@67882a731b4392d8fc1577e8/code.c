@@ -2,9 +2,9 @@
 #include <stdio.h>
 int main(){
     int x;
-        int y=x&1;
+        
     scanf("%d",&x);
-
+int y=x&1;
     if(y==1){
         printf("Set");
     }
