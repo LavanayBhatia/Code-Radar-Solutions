@@ -3,7 +3,7 @@
 int main(){
     int x;
     scanf("%d",&x);
-    int z=0;
+    int n=0;
     if (n==0){
         printf("-1\n");
         return 0;
