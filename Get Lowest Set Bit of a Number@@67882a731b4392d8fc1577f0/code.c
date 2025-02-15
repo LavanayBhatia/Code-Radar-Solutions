@@ -10,7 +10,7 @@ int main() {
     printf("Enter a number: ");
     scanf("%d", &num);
 
-    printf("Lowest set bit is at position: %d\n", getLowestSetBitPosition(num));
+    printf("%d\n", getLowestSetBitPosition(num));
 
     return 0;
 }
