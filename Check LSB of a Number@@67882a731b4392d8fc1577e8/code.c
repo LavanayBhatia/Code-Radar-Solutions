@@ -1,7 +1,7 @@
 // Your code here...
 #include <stdio.h>
 int main(){
-    int x,
+    int x
     
     scanf("%d",&x);
     int y=x&1;
