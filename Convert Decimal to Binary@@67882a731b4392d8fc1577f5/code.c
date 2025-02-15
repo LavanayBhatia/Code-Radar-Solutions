@@ -1,11 +1,10 @@
 // Your code here...
 #include <stdio.h>
-int main() {
-    int num;
-    scanf("%d", &num);
-    if (n > 1) {
-        decimalToBinary(n >> 1); 
+int main(){
+    int x;
+    scanf("%d",&x);
+    while(x>1){
+        printf("%d",x&1);
+        x--;
     }
-    printf("%d", n & 1); 
-    return 0;
-}
+    }
