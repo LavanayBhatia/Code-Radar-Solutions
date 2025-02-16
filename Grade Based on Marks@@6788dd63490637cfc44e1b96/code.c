@@ -7,7 +7,7 @@ int main(){
         printf("A");
     }
     else if (x>=80){
-        pritnf("B");
+        printf("B");
     }
     else if(x>=70){
         printf("C");
