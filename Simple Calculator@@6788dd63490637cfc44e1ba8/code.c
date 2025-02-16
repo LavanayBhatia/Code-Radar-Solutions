@@ -10,8 +10,12 @@ int main(){
         printf("%d",x-y);}
     else if (z=='*'){
         printf("%d",x*y);}
-    else if (z=='/'){if (y==0){printf("Error")
-    }else{
+    else if (z=='/')
+    {
+        if (y==0){
+            printf("Error");
+    }
+    else{
         printf("%d",x/y);}
     }
     else{
