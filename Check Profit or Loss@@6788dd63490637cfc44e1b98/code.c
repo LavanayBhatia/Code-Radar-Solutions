@@ -3,10 +3,10 @@
 int main(){
     int x,y;
     scanf("%d %d",&x,&y);
-    if (x-y>0){
+    if (y-x>0){
         printf("Profit");
     }
-    else if(x-y<0){
+    else if(y-x<0){
         printf("Loss");
     }
     else{
