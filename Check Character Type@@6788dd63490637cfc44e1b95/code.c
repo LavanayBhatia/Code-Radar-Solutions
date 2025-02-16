@@ -9,7 +9,7 @@ int main(){
     else if(x>='a' && x<='z'){
         printf("Consonant");
     }
-    else if (x>='0' && x<='9'){
+    else if (x>='1' && x<='9'){
         printf("Digit");
     }
     else{
