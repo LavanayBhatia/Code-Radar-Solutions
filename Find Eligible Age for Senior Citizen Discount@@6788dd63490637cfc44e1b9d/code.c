@@ -3,7 +3,7 @@
 int main(){
     int x;
     scanf("%d",&x);
-    if(x>65){
+    if(x>=65){
         printf("Eligible");
     }
     else{
