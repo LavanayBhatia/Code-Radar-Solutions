@@ -1,7 +1,7 @@
 // Your code here...
 #include <stdio.h>
 int main(){
-    if x;
+    int x;
     scanf("%d",&x);
     if(x>0){
         printf("Positive");
