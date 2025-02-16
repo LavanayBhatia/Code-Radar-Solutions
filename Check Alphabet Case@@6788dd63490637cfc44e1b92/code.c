@@ -4,7 +4,7 @@ int main(){
     char x;
 scanf("%c",&x);
 if(x>='A' && x<='Z'){
-    pritnf("uppercase");
+    printf("uppercase");
 }
 else{
     printf("lowercase");
