@@ -13,7 +13,7 @@ int main(){
     else if (z=='/')
     {
         if (y==0){
-            printf("Error");
+            printf("error");
     }
     else{
         printf("%d",x/y);}
