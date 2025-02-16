@@ -5,7 +5,7 @@ int main(){
     char z;
     scanf("%d %d %c",&x,&y,&z);
     if (z=='+'){
-        printf("%d",x+y);
+        printf("%d",x+y);}
     else if (z=='-'){
         printf("%d",x-y);}
     else if (z=='*'){
@@ -16,4 +16,4 @@ int main(){
     else{
         printf("Error");
     }
-}}
+}
