@@ -4,12 +4,7 @@ int findUnsortedSubarray(int arr[],int n){
         for(int j=0;i<j-i-1;j++){
             if(arr[j]>arr[j+1]){
  printf("%d",arr[j]);
-            }
-            else{
-               
-                temp=arr[j];
-arr[j]=arr[j+1];
-arr[j+1]=temp;
+ break;
             }
         }
     }
