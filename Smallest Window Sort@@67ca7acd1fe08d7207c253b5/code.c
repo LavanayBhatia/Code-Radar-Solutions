@@ -3,6 +3,7 @@ int findUnsortedSubarray(int arr[],int n){
         if(arr[i]>arr[i+1]){
             return arr[i];
             }
-            return 0;
+            
         }
+        return 0;
     }
