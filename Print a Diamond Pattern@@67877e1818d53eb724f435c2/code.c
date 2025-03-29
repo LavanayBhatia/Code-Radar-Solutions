@@ -6,10 +6,7 @@ int main(){
         for(int j=i;j<x;j++){
             printf(" ");
         }
-        for(int k=1;k<=i;k++){
-            printf("*");
-        }
-        for(int l=2;l<=i;l++){
+        for(int k=1;k<=2*i-1;k++){
             printf("*");
         }
         printf("\n");
@@ -19,12 +16,10 @@ int main(){
         for(int j=1;j<=i;j++){
             printf(" ");
         }
-        for(int k=x-i;k;k--){
+        for(int k=1;k<2*i-1;k--){
             printf("*");
         }
-        for(int l=i;l<x-1;l++){
-            printf("*");
-        }
+        
         printf("\n");
     }
     
