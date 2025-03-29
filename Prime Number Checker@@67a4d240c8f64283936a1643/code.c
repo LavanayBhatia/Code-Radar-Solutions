@@ -3,13 +3,13 @@ int isPrime(int n){
         return 0;
     }
     for(int i=2;i<n;i++){
-        if(n%i==0){
-            break;
+        if(n%i==0){  
 return 0;
+break;
         }
         else{
-            break;
             return 1;
+            break;
         }
 
     }
