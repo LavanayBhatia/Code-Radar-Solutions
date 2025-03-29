@@ -2,10 +2,11 @@
 int main(){
     int x;
     scanf("%d",&x);
-    for(int i=1;i<=x;i++){
-        for(int k=1;k<=i;k++){
+    for(int i=i;i;i++){
+        
             printf("*");
-        }
-        printf("\n");
+        
+        
     }
+    printf("\n");
 }
