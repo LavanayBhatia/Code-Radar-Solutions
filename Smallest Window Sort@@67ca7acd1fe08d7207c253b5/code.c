@@ -24,5 +24,7 @@ while (z < n - 1 && arr[z + 1] < e) {
 
     return z-k+1;
      
-    
+     if (k == -1 || z == -1) {
+        return 0;
+    }
     }
