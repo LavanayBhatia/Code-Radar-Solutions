@@ -19,9 +19,9 @@ int main(){
         for(int j=i;j<x;j++){
             printf(" ");
         }
-        for(int k=x-i;k;k--){
-            printf("*");
-        }
+        // for(int k=;k;k--){
+        //     printf("*");
+        // }
         for(int l=i;l<x;l++){
             printf("*");
         }
