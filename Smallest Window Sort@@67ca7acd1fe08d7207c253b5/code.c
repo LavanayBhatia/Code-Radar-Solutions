@@ -1,5 +1,5 @@
 int findUnsortedSubarray(int arr[],int n){
-    int k=0,z=0;
+    int k=-1,z=-1;
     for(int i=0;i<n-1;i++){
         if(arr[i]>arr[i+1]){
             k=i;
@@ -10,7 +10,7 @@ int findUnsortedSubarray(int arr[],int n){
             break;
         }
     }
-   if(k==0||z==0){
+   if(k==-1||z==-1){
         return 0;
     }
 
