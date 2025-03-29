@@ -11,7 +11,7 @@ int findUnsortedSubarray(int arr[],int n){
     for(int j=k;j<=z;j++){
         r+=1;
     }
-    printf("%d",r);
+    return r;
     
             
         }
