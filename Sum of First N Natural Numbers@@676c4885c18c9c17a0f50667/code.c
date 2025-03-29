@@ -1,12 +1,10 @@
-// Your code here...
 #include <stdio.h>
 int main(){
-    int x,y=0;
+    int x,k=0;
     scanf("%d",&x);
-    int i;
-    while(i<=x){
-        y+=i;
-        i++;
-    }
-    printf("%d",y);
+while(x!=0){
+    k+=x;
+    x-=1;
+}
+printf("%d",k);
 }
