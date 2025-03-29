@@ -5,7 +5,7 @@ int main(){
     for(int i=1;i<=x;i++){
         for(int k=1;k<=x;k++){
             printf("*");
-            if( k>=2 && k<=x-1)
+            if(i>1 && k>=2 && k<=x-1)
             printf(" ");
         }
         printf("\n");
