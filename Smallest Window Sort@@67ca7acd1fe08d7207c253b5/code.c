@@ -13,8 +13,8 @@ int findUnsortedSubarray(int arr[],int n){
     if(k||z){
         return 0;
     }
-    else{
+    
 
-    return z-k+1;}
+    return z-k+1;
     
     }
