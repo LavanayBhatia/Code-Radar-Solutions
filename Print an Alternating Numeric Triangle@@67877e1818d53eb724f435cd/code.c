@@ -4,12 +4,12 @@ int main(){
     scanf("%d",&x);
     for(int i=1;i<=x;i++){
         for(int j=1;j<=i;j++){
-            if(i%3==0 && j==1 || i==j){
-                printf("1 ");
-            }
-            else{
-                printf("0 ");
-            }
+          if((i+j)%2==0){
+            printf("1 ");
+          }
+          else{
+            printf("0 ");
+          }
         }
         printf("\n");
     }
