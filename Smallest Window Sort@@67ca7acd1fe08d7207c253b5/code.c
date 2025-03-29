@@ -10,7 +10,7 @@ int findUnsortedSubarray(int arr[],int n){
             break;
         }
     }
-    if(k||z){
+    if(k==0||z==0){
         return 0;
     }
     
