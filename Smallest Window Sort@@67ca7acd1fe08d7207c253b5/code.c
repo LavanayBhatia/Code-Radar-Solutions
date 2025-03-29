@@ -21,10 +21,10 @@ int findUnsortedSubarray(int arr[],int n){
 while (z < n - 1 && arr[z + 1] < e) {
     z++;
 }
-
-    return z-k+1;
-     
-     if (k == -1 || z == -1) {
+ if (k == -1 || z == -1) {
         return 0;
     }
+    return z-k+1;
+     
+
     }
