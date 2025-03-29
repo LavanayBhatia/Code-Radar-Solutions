@@ -17,14 +17,14 @@ int main(){
     }
     for(int i=1;i<=x;i++){
         for(int j=i;j<x;j++){
-            printf(" ");
+            printf("*");
         }
         // for(int k=;k;k--){
         //     printf("*");
         // }
-        for(int l=i;l<x;l++){
-            printf("*");
-        }
+        // for(int l=i;l<x;l++){
+        //     printf("*");
+        // }
         printf("\n");
     }
     
