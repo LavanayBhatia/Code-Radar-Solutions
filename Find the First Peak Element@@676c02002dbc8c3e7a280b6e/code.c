@@ -8,7 +8,7 @@ int main(){
     }
     for(int i=0;i<x-1;i++){
         if(arr[i]>arr[i+1]&&arr[i+1]>arr[i+2]){
-            printf("%d",arr[j+1]);
+            printf("%d",arr[i+1]);
             break;
         }
     }
