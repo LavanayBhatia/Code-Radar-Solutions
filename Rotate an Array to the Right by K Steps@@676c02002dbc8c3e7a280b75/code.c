@@ -1,12 +1,13 @@
 #include <stdio.h>
 
 int v(int arr[],int n;int k){
+    while(n<k){
 int temp=arr[n];
 arr[n]=arr[k];
 arr[k]=temp;
 n++;
 k--;
-}
+}}
 int f(int arr[],int n;int k){
     v(arr,0,n-1);
     v(arr,0,k-1);
