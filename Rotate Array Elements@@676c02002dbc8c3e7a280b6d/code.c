@@ -15,7 +15,7 @@ int main(){
         arr1[k]=arr[i];
     }
     for(int i=0;i<n;i++){
-        printf("%d",arr[i]);
+        printf("%d",arr1[i]);
         printf("\n");
     }
     }
