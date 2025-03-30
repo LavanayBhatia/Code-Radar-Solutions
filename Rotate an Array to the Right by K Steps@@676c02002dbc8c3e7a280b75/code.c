@@ -8,7 +8,7 @@ arr[k]=temp;
 n++;
 k--;
 }}
-int f(int arr[],int n;int k){
+int f(int arr[],int n,int k){
     k=k%n;
     v(arr,0,n-1);
     v(arr,0,k-1);
