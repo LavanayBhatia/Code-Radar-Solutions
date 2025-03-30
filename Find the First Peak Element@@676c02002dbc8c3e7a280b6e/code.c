@@ -11,10 +11,11 @@ int main(){
         return 0;
     }
     for(int i=0;i<x-2;i++){
-        if(arr[i]<arr[i+1]&&arr[i+1]>arr[i+2]){
-            printf("%d",arr[i+1]);
+        if(arr[i]>arr[i-1]&&arr[i]>arr[i+1]){
+            printf("%d",arr[i]);
             break;
         }
+       
         
     }
 }
