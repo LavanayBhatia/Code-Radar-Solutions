@@ -6,17 +6,17 @@ int main(){
     for(int i=0;i<x;i++){
         scanf("%d",&arr[i]);
     }
-   for (int i = 0; i < x; i++)
-    {  int k=1;
-       if(arr1[i]==1)
-       continue;
-
-        for(int j=0;j<x-1;j++){
-        if(arr[j]==arr[j+1]){
-            k++;
-arr1[j]=1;
+    for (int i = 0; i < x; i++)
+    {
+        int k=1;
+        if(arr1[i]==1){
+            continue;
         }
-
+        for(int j=i+1;j<x;j++){
+            if(arr[i]==arr[j]){
+                k++;
+                arr1[j]=1;
+            }
+        }
+        printf("%d %d",arr[i],k);
     }
-    printf("%d %d",arr[i],k);
-}}
