@@ -9,15 +9,14 @@ int main(){
     int k;
     scanf("%d",&k);
     k=k%n;
-    for(int i=0;i<n;i++){
+    for(int i=0;i<k;i++){
         arr1[i]=arr[n-k+i];
     }
-    for(int i=0;i<=n-k;i++){
+    for(int i=0;i<n-k;i++){
         arr1[k+i]=arr[i];
     }
-   
     for(int i=0;i<n;i++){
-        printf("%d ",arr1[i]);
+        printf("%d",arr1[i]);
+        printf("\n");
     }
-   
-}
+    }
