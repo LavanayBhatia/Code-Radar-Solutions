@@ -3,7 +3,7 @@ int main(){
     int x,j=0;
     scanf("%d",&x);
     int arr[x];
-    for(int i=0;i<x;i++){
+    for(int i=0;i<x-1;i++){
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<x;i++){
