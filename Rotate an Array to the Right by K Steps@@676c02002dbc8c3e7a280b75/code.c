@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int v(int arr[],int n;int k){
+int v(int arr[],int n,int k){
     while(n<k){
 int temp=arr[n];
 arr[n]=arr[k];
