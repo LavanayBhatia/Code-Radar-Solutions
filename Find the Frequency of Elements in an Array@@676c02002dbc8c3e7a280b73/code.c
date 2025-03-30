@@ -20,4 +20,4 @@ int main(){
         }
         printf("%d %d",arr[i],k);
         printf("\n");
-    }return 0;}
+    }}
