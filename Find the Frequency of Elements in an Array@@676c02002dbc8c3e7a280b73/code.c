@@ -9,9 +9,8 @@ int main(){
    for (int i = 0; i < x; i++)
     {  int k=1;
        if(arr1[i]==1)
-       continue;}
+       continue;
 
-    for(int i=0;i<x;i++){
         for(int j=0;j<x-1;j++){
         if(arr[j]==arr[j+1]){
             k++;
