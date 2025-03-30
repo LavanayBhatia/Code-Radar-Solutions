@@ -8,7 +8,7 @@ int main(){
     }
     int k,j=0;
     scanf("%d",&k);
-    for(int i=0;i<k;i++){
+    for(int i=0;i<k%n;i++){
 arr1[i]=arr[n-k+i];
 j++;
     }
