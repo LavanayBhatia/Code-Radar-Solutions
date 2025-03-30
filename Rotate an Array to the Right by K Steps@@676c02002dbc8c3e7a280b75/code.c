@@ -16,7 +16,6 @@ arr1[k+i]=arr[i];
    
     for(int i=0;i<n;i++){
         printf("%d",arr1[i]);
-        printf("\n");
     }
    
 }
