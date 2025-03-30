@@ -19,4 +19,4 @@ int main(){
             }
         }
         printf("%d %d",arr[i],k);
-    }}
+    }return 0;}
