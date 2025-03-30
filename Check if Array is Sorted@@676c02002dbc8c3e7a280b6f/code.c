@@ -8,7 +8,8 @@ int main(){
     }
     for(int i=0;i<x;i++){
         if(arr[i]>arr[i+1]){
-
+j=0;
+break;
         }
         else{
             j=1;
