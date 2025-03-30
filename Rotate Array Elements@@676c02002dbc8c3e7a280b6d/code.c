@@ -11,9 +11,9 @@ int main(){
     for(int i=0;i<k;i++){
         arr1[i]=arr[n-k+i];
     }
-    for(int i=0;i<=k;i++){
-        arr1[k-1]=arr[i];
-    }
+    // for(int i=0;i<=k;i++){
+    //     arr1[k]=arr[i];
+    // }
     for(int i=0;i<n;i++){
         printf("%d",arr1[i]);
         printf("\n");
