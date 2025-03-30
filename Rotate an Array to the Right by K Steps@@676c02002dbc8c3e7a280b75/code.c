@@ -1,27 +1,28 @@
 #include <stdio.h>
+
+int v(int arr[],int n;int k){
+int temp=arr[n];
+arr[n]=arr[k];
+arr[k]=temp;
+n++;
+k--;
+}
+int f(int arr[],int n;int k){
+    v(arr,0,n-1);
+    v(arr,0,k-1);
+    v(arr,k,n-1);
+}
 int main(){
     int n;
-    scanf("%d",&n);
-    int arr[n],arr1[n];
+    scanf("%d",&x);
+    int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int k,j=0;
+    int k;
     scanf("%d",&k);
-    for(int i=0;i<k%n;i++){
-arr1[i]=arr[n-k+i];
-j++;
-    }
+    f(arr,n,k);
     for(int i=0;i<n;i++){
-if(arr[i]==arr1[0]){
-    break;
-}
-else{
-    arr1[j+i]=arr[i];
-}
+        printf("%d",arr[i]);
     }
-    for(int i=0;i<n;i++){
-        printf("%d ",arr1[i]);
-    }
-   
 }
