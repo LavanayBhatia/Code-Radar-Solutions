@@ -14,7 +14,7 @@ int main(){
         for(int j=0;j<x-1;j++){
         if(arr[j]==arr[j+1]){
             k++;
-z[j]=1;
+arr1[j]=1;
         }
 
     }
