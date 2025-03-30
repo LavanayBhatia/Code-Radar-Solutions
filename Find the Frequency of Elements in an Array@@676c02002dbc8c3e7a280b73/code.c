@@ -18,5 +18,5 @@ arr1[j]=1;
         }
 
     }
-    printf("%d %d",x[i],k);
+    printf("%d %d",arr[i],k);
 }}
