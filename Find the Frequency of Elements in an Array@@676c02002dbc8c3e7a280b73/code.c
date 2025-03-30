@@ -8,7 +8,7 @@ int main(){
     }
    for (int i = 0; i < x; i++)
     {  int k=1;
-       if(z[i]==1)
+       if(arr1[i]==1)
        continue;}
 
     for(int i=0;i<x;i++){
