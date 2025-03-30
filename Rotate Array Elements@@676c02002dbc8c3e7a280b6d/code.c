@@ -16,7 +16,7 @@ if(arr[i]==arr1[0]){
     break;
 }
 else{
-    arr1[i]=arr[i];
+    arr1[2+i]=arr[i];
 }
     }
     for(int i=0;i<n;i++){
