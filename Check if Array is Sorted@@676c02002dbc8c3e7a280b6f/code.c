@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int x;
+    int x,j=0;
     scanf("%d",&x);
     int arr[x];
     for(int i=0;i<x;i++){
@@ -8,10 +8,16 @@ int main(){
     }
     for(int i=0;i<x;i++){
         if(arr[i]>arr[i+1]){
-printf("Not Sorted");
+
         }
         else{
-            printf("Sorted");
+            j=1;
         }
+    }
+    if(j){
+        printf("Sorted");
+    }
+    else{
+        printf("Not Sorted");
     }
 }
