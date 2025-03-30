@@ -1,29 +1,31 @@
 #include <stdio.h>
-int main(){
+
+int main() {
     int n;
-    scanf("%d",&n);
-    int arr[n],arr1[n];
-    for(int i=0;i<n;i++){
-        scanf("%d",&arr[i]);
+    scanf("%d", &n);
+    int arr[n], arr1[n];
+    
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
     }
-    int k,j=0;
-    scanf("%d",&k);
-    k=k%n;
-    for(int i=0;i<k;i++){
-arr1[i]=arr[n-k+i];
-j++;
+
+    int k, j = 0;
+    scanf("%d", &k);
+
+    k = k % n;
+
+    for (int i = 0; i < k; i++) {
+        arr1[i] = arr[n - k + i];
     }
-    for(int i=0;i<n;i++){
-if(arr[i]==arr1[0]){
-    break;
-}
-else{
-    arr1[j+i]=arr[i];
-}
+
+    for (int i = 0; i < n - k; i++) {
+        arr1[k + i] = arr[i];
     }
-    for(int i=0;i<n;i++){
-        printf("%d",arr1[i]);
-        printf("\n");
+
+    for (int i = 0; i < n; i++) {
+        printf("%d ", arr1[i]);
     }
-   
+    printf("\n");
+
+    return 0;
 }
